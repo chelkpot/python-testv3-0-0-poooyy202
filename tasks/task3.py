@@ -2,12 +2,8 @@
 
 def solve():
 # Ниже пишите решение задачи
-    p = int(input())
-    ans = 0
-    for bill in [100, 20, 10, 5, 1]:
-     ans += p // bill
-    p = p % bill
-    print(ans)
+    n = int(input())
+    print(n // 100 + n % 100 // 20 + n % 20 // 10 + n % 10 // 5 + n % 5)
 
 
 # Код ниже не трогать! он нужен для тестов

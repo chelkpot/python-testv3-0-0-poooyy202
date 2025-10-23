@@ -2,8 +2,8 @@
 
 def solve():
 # Ниже пишите решение задачи
-    n=int(input())
-    print(n = 2 - n % 2)
+    n = int(input())
+    print(n + 2 - n % 2)
 
     
 
